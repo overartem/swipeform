@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Company</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header class="container">
+      <a href="#" class="logo"><img src="/images/logo.svg" alt="Star Company"></a>
+      <div class="navigations">
+        <form action="#" class="form-login">
+          <div class="field">
+            <input type="text" class="email" name="email" placeholder="Email">
+            <!-- <p class="error-validation">Please enter a valid email address</p> -->
+          </div>
+          <div class="field">
+            <input type="password" class="password" name="password" placeholder="Password">
+            <a href="#" class="forgot-password">Forgot your password?</a>
+          </div>
+          <button type="button" class="login-btn">Log In</button>
+        </form>
+      </div>
+    </header>
+    <div id="app" class="container">
+      <h1>StarCompany DESIGNS, MANUFACTURES AND</h1>
+      <h2>Launches Advanced Rockets and Spacecrafts</h2>
+      <div class="registration-wrapper">
+        <form id="register-form" data-current-slide="0">
+          <div class="slider-wrapper">
+            <a href="#" class="button left inactive">left</a>
+            <div class="slide active">
+              <div class="select-wrapper">
+                <button type="button" name="profession" class="custom-select" id="custom-select">
+                  <p class="label">Who are you</span></p>
+                  <input type="text" name="profession" class="selected-option">
+                  <div class="dropdown">
+                    <ul class="dropdown-list">
+                      <li><span>Engineer</span></li>
+                      <li><span>Business Development Executive</span></li>
+                      <li><span>Office Manager/PA</span></li>
+                      <li><span>Accountant</span></li>
+                      <li><span>VR Designer</span></li>
+                    </ul>
+                  </div>
+                </button>
+
+              </div>
+            </div>
+            <div class="slide">
+              <div class="select-wrapper">
+                <button type="button" name="age" class="custom-select" id="custom-select-age">
+                  <p class="label">What is your age?</span></p>
+                  <input type="text" name="age" class="selected-option">
+                  <div class="dropdown">
+                    <ul class="dropdown-list">
+                      <li><span>18</span></li>
+                      <li><span>19</span></li>
+                      <li><span>20</span></li>
+                      <li><span>21</span></li>
+                      <li><span>22</span></li>
+                      <li><span>23</span></li>
+                      <li><span>24</span></li>
+                      <li><span>25</span></li>
+                      <li><span>26</span></li>
+                      <li><span>27</span></li>
+                      <li><span>28</span></li>
+                      <li><span>29</span></li>
+                      <li><span>30</span></li>
+                    </ul>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="input-wrapper">
+                <button type="button" class="custom-select" id="custom-address">
+                  <p class="label">I am from</p>
+                  <input type="text" class="reg-input" name="location" id="address" placeholder="Your address">
+                </button>
+              </div>
+              <div class="slide-info">
+                <p>E.g.: New Roads or 70760</p>
+                <p>We don`t use postal addresses to contact members directly!</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="input-wrapper">
+                <button type="button" class="custom-select" id="custom-email">
+                  <p class="label">Your email address</p>
+                  <input type="text" class="reg-input" name="email" id="email" placeholder="Input your email">
+                </button>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="input-wrapper">
+                <button type="button" class="custom-select" id="custom-password">
+                  <p class="label">Create your password</p>
+                  <input type="password" class="reg-input" name="password" id="password"
+                    placeholder="Input your password">
+                </button>
+              </div>
+              <div class="slide-info">
+                <p>By clicking the button above you agree to our Terms of Use</p>
+                <p>and Privacy Policy including use of cookies and to receive newsletters,</p>
+                <p>account updates and offers sent by StarCompany.</p>
+              </div>
+            </div>
+            <button type="submit" id="send" class="button right send"><span>Next step</span></button>
+          </div>
+          <div class="dot-slider-nav">
+            <ul>
+              <li class="dot-item active"><span>0</span></li>
+              <li class="dot-item"><span>1</span></li>
+              <li class="dot-item"><span>2</span></li>
+              <li class="dot-item"><span>3</span></li>
+              <li class="dot-item"><span>4</span></li>
+            </ul>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

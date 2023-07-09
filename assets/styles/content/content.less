@@ -1,0 +1,36 @@
+#app {
+    flex: 1 1 auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    color: @color-base-blue;
+    font-size: 28px;
+    font-family: proxima_nova_bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0 0 39px 0;
+    color: @color-white;
+    font-weight: 300;
+    font-size: 26px;
+    font-family: proxima_novathin;
+    letter-spacing: 3.28px;
+}
+
+@media only screen and (min-width: @desktop) {
+    #app {
+        margin-top: 250px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}

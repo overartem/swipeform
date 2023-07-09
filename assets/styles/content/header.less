@@ -1,0 +1,64 @@
+header {
+    flex: 0 0 auto;
+    padding-top: 2.4rem;
+    width: 100%;
+    min-height: 80px;
+
+    &.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .navigations {
+        padding-top: 12px;
+    }
+
+    .form-login {
+        .login-btn {
+            border: 2px solid @color-white;
+            background: none;
+
+            &:hover,
+            &:active {
+                border: none;
+                background-image: linear-gradient(29deg, @color-blue-3 0%, @color-blue-2 100%);
+                background-color: @color-base-orange;
+            }
+        }
+
+        .field {
+            display: none;
+        }
+
+        &.opened {
+            .login-btn {
+                border: none;
+                background-image: linear-gradient(29deg, @color-blue-3 0%, @color-blue-2 100%);
+                background-color: @color-base-orange;
+            }
+
+            .field {
+                display: block;
+            }
+        }
+    }
+
+    img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: @desktop) {
+    header {
+        &.container {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+    }
+}
