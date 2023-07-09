@@ -1,7 +1,6 @@
 import './assets/styles/style.less';
 
 import { Input } from './components/Input';
-// import './assets/styles/nav/select.scss';
 import { Select } from './components/Select';
 import { Slider } from './components/Slider';
 import { TopMenu } from './components/TopMenuValidator';
