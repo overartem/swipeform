@@ -33,3 +33,15 @@ or but before you have to run build || **Це команда для старту
 10. Для логін топ меню, інформації ніякої у вас не було, тому там використано примітивну валідацю і show/hide але тексти помилок також беруться з вашого мок серверу.
 10. Використовуйте для запуску проекту команди які описані вище.
 11. Створено робочий варіант на базі github pages https://overartem.github.io/swipeform/
+
+------------
+## App Screenshots :eyes:
+
+![Іллюстрація до проєкту](https://i.imgur.com/4TtzT8v.png)
+![Іллюстрація до проєкту](https://i.imgur.com/OGCxHGb.png)
+![Іллюстрація до проєкту](https://i.imgur.com/V4VguDD.png)
+![Іллюстрація до проєкту](https://i.imgur.com/3iNowpe.png)
+![Іллюстрація до проєкту](https://i.imgur.com/wTkrGDl.png)
+![Іллюстрація до проєкту](https://i.imgur.com/REY9TEX.png)
+![Іллюстрація до проєкту](https://i.imgur.com/HmwBLVk.png)
+
